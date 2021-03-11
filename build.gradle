@@ -1,0 +1,250 @@
+apply plugin: 'java'
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+repositories {
+	jcenter()
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'io.cucumber:cucumber-java:4.7.1'
+	implementation 'io.cucumber:cucumber-core:4.7.1'
+	implementation 'io.cucumber:cucumber-guice:4.7.1'
+	implementation 'io.cucumber:cucumber-junit:4.7.1'
+	implementation 'io.cucumber:datatable:1.1.14'
+
+	implementation 'com.google.inject:guice:4.2.0'
+
+	implementation 'ch.qos.logback:logback-classic:1.2.3'
+	implementation 'ch.qos.logback:logback-core:1.2.3'
+
+	implementation 'org.yaml:snakeyaml:1.21'
+
+	implementation 'junit:junit:4.12'
+	implementation 'javax.inject:javax.inject:1'
+
+	implementation 'de.monochromata.cucumber:reporting-plugin:2.0.0'
+
+	implementation 'org.seleniumhq.selenium:selenium-api:3.14.0'
+	implementation 'org.seleniumhq.selenium:selenium-support:3.14.0'
+	implementation 'org.seleniumhq.selenium:selenium-remote-driver:3.14.0'
+	implementation 'org.seleniumhq.selenium:selenium-firefox-driver:3.14.0'
+	implementation 'org.seleniumhq.selenium:selenium-chrome-driver:3.14.0'
+	implementation 'org.seleniumhq.selenium:selenium-ie-driver:3.14.0'
+	implementation 'org.seleniumhq.selenium:selenium-ie-driver:3.14.0'
+	implementation 'com.google.code.gson:gson:2.8.5'
+	implementation 'org.apache.poi:poi:5.0.0'
+	implementation 'org.apache.poi:poi-ooxml:5.0.0'
+	
+
+
+	configurations {
+		cucumberRuntime {
+			extendsFrom testImplementation
+		}
+	}
+}
+
+task cucumberEuDesktop() {
+	dependsOn assemble, compileTestJava
+	def cucumberArguments = ['-p', 'pretty',
+							 '-p', 'html:build/cucumber-reports',
+							 '-p', 'json:build/cucumber-reports/cucumber-' + new Date().format('dd-MM-yyyy-HH-mm-ss-SSS') + '.json',
+							 '-p', 'de.monochromata.cucumber.report.PrettyReports:build',
+							 '-g', 'com.mk.testframework.core',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.eu',
+							 '-g', 'com.mk.testframework.stepdefs.desktopSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.desktopSteps.eu']
+	doLast {
+		javaexec {
+			main = "io.cucumber.core.cli.Main"
+			systemProperties System.getProperties()
+			cucumberArguments << '-t' << (systemProperties.tags != null ? systemProperties.tags : '@example')
+			cucumberArguments << (systemProperties.location != null ? systemProperties.location : 'src/test/resources/features')
+			classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+			args = cucumberArguments
+		}
+	}
+}
+
+
+task cucumberEuMobile() {
+	dependsOn assemble, compileTestJava
+	def cucumberArguments = ['-p', 'pretty',
+							 '-p', 'html:build/cucumber-reports',
+							 '-p', 'json:build/cucumber-reports/cucumber-' + new Date().format('dd-MM-yyyy-HH-mm-ss-SSS') + '.json',
+							 '-p', 'de.monochromata.cucumber.report.PrettyReports:build',
+							 '-g', 'com.mk.testframework.core',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.eu',
+							 '-g', 'com.mk.testframework.stepdefs.mobileSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.mobileSteps.eu']
+	doLast {
+		javaexec {
+			main = "io.cucumber.core.cli.Main"
+			systemProperties System.getProperties()
+			cucumberArguments << '-t' << (systemProperties.tags != null ? systemProperties.tags : '@example')
+			cucumberArguments << (systemProperties.location != null ? systemProperties.location : 'src/test/resources/features')
+			classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+			args = cucumberArguments
+		}
+	}
+}
+
+task cucumberGlobalDesktop() {
+	dependsOn assemble, compileTestJava
+	def cucumberArguments = ['-p', 'pretty',
+							 '-p', 'html:build/cucumber-reports',
+							 '-p', 'json:build/cucumber-reports/cucumber-' + new Date().format('dd-MM-yyyy-HH-mm-ss-SSS') + '.json',
+							 '-p', 'de.monochromata.cucumber.report.PrettyReports:build',
+							 '-g', 'com.mk.testframework.core',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.global',
+							 '-g', 'com.mk.testframework.stepdefs.desktopSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.desktopSteps.global']
+	doLast {
+		javaexec {
+			main = "io.cucumber.core.cli.Main"
+			systemProperties System.getProperties()
+			cucumberArguments << '-t' << (systemProperties.tags != null ? systemProperties.tags : '@example')
+			cucumberArguments << (systemProperties.location != null ? systemProperties.location : 'src/test/resources/features')
+			classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+			args = cucumberArguments
+		}
+	}
+}
+
+task cucumberGlobalMobile() {
+	dependsOn assemble, compileTestJava
+	def cucumberArguments = ['-p', 'pretty',
+							 '-p', 'html:build/cucumber-reports',
+							 '-p', 'json:build/cucumber-reports/cucumber-' + new Date().format('dd-MM-yyyy-HH-mm-ss-SSS') + '.json',
+							 '-p', 'de.monochromata.cucumber.report.PrettyReports:build',
+							 '-g', 'com.mk.testframework.core',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.global',
+							 '-g', 'com.mk.testframework.stepdefs.mobileSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.mobileSteps.global']
+	doLast {
+		javaexec {
+			main = "io.cucumber.core.cli.Main"
+			systemProperties System.getProperties()
+			cucumberArguments << '-t' << (systemProperties.tags != null ? systemProperties.tags : '@example')
+			cucumberArguments << (systemProperties.location != null ? systemProperties.location : 'src/test/resources/features')
+			classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+			args = cucumberArguments
+		}
+	}
+}
+
+task cucumberUsDesktop() {
+	dependsOn assemble, compileTestJava
+	def cucumberArguments = ['-p', 'pretty',
+							 '-p', 'html:build/cucumber-reports',
+							 '-p', 'json:build/cucumber-reports/cucumber-' + new Date().format('dd-MM-yyyy-HH-mm-ss-SSS') + '.json',
+							 '-p', 'de.monochromata.cucumber.report.PrettyReports:build',
+							 '-g', 'com.mk.testframework.core',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.na.allNaRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.na.us',
+							 '-g', 'com.mk.testframework.stepdefs.desktopSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.desktopSteps.na.allNaRegions',
+							 '-g', 'com.mk.testframework.stepdefs.desktopSteps.na.us']
+
+	doLast {
+		javaexec {
+			main = "io.cucumber.core.cli.Main"
+			systemProperties System.getProperties()
+			cucumberArguments << '-t' << (systemProperties.tags != null ? systemProperties.tags : '@example')
+			cucumberArguments << (systemProperties.location != null ? systemProperties.location : 'src/test/resources/features')
+			classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+			args = cucumberArguments
+		}
+	}
+}
+
+task cucumberUsMobile() {
+	dependsOn assemble, compileTestJava
+	def cucumberArguments = ['-p', 'pretty',
+							 '-p', 'html:build/cucumber-reports',
+							 '-p', 'json:build/cucumber-reports/cucumber-' + new Date().format('dd-MM-yyyy-HH-mm-ss-SSS') + '.json',
+							 '-p', 'de.monochromata.cucumber.report.PrettyReports:build',
+							 '-g', 'com.mk.testframework.core',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.na.allNaRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.na.us',
+							 '-g', 'com.mk.testframework.stepdefs.mobileSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.mobileSteps.na.allNaRegions',
+							 '-g', 'com.mk.testframework.stepdefs.mobileSteps.na.us']
+
+	doLast {
+		javaexec {
+			main = "io.cucumber.core.cli.Main"
+			systemProperties System.getProperties()
+			cucumberArguments << '-t' << (systemProperties.tags != null ? systemProperties.tags : '@example')
+			cucumberArguments << (systemProperties.location != null ? systemProperties.location : 'src/test/resources/features')
+			classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+			args = cucumberArguments
+		}
+	}
+}
+
+task cucumberCaDesktop() {
+	dependsOn assemble, compileTestJava
+	def cucumberArguments = ['-p', 'pretty',
+							 '-p', 'html:build/cucumber-reports',
+							 '-p', 'json:build/cucumber-reports/cucumber-' + new Date().format('dd-MM-yyyy-HH-mm-ss-SSS') + '.json',
+							 '-p', 'de.monochromata.cucumber.report.PrettyReports:build',
+							 '-g', 'com.mk.testframework.core',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.na.allNaRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.na.ca',
+							 '-g', 'com.mk.testframework.stepdefs.desktopSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.desktopSteps.na.allNaRegions',
+							 '-g', 'com.mk.testframework.stepdefs.desktopSteps.na.ca']
+
+	doLast {
+		javaexec {
+			main = "io.cucumber.core.cli.Main"
+			systemProperties System.getProperties()
+			cucumberArguments << '-t' << (systemProperties.tags != null ? systemProperties.tags : '@example')
+			cucumberArguments << (systemProperties.location != null ? systemProperties.location : 'src/test/resources/features')
+			classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+			args = cucumberArguments
+		}
+	}
+}
+
+
+task cucumberCaMobile() {
+	dependsOn assemble, compileTestJava
+	def cucumberArguments = ['-p', 'pretty',
+							 '-p', 'html:build/cucumber-reports',
+							 '-p', 'json:build/cucumber-reports/cucumber-' + new Date().format('dd-MM-yyyy-HH-mm-ss-SSS') + '.json',
+							 '-p', 'de.monochromata.cucumber.report.PrettyReports:build',
+							 '-g', 'com.mk.testframework.core',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.na.allNaRegions',
+							 '-g', 'com.mk.testframework.stepdefs.crossPlatformSteps.na.ca',
+							 '-g', 'com.mk.testframework.stepdefs.mobileSteps.allRegions',
+							 '-g', 'com.mk.testframework.stepdefs.mobileSteps.na.allNaRegions',
+							 '-g', 'com.mk.testframework.stepdefs.mobileSteps.na.ca']
+
+	doLast {
+		javaexec {
+			main = "io.cucumber.core.cli.Main"
+			systemProperties System.getProperties()
+			cucumberArguments << '-t' << (systemProperties.tags != null ? systemProperties.tags : '@example')
+			cucumberArguments << (systemProperties.location != null ? systemProperties.location : 'src/test/resources/features')
+			classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+			args = cucumberArguments
+		}
+	}
+}
+

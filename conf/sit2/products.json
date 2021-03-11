@@ -1,0 +1,47 @@
+[
+	{
+		"styleName": "MK-1050",
+		"collectionName": "MICHAEL KORS",
+		"productName": {
+			"en": "Trenton Sunglasses",
+			"es": "Gafas de sol Trenton",
+			"fr": "Lunettes de soleil Trenton",
+			"de": "Sonnenbrille Trenton"
+		},
+		"category": "sunglasses"
+	},
+	{
+		"styleName": "32H8GWHC1L",
+		"collectionName": "MICHAEL KORS STUDIO",
+		"productName": {
+			"en": "Whitney Small Leather Chain Wallet",
+			"es": "Cartera Whitney peque�a de piel con cadena",
+			"fr": "Petit portefeuille cha�ne Whitney en cuir",
+			"de": "Brieftasche Whitney Small aus Leder mit Kette"
+		},
+		"category": "bag"
+	},
+	{
+		"styleName": "43R0BIFS2B",
+		"collectionName": "michael michael kors",
+		"productName": {
+			"en": "Billie Color-Block Logo Trainer",
+			"es": "Zapatilla Billie con logotipos y bloques de color",
+			"fr": "Basket � logo et couleurs contrast�es Billie",
+			"de": "Sneaker Billie aus Logostoff in Blockfarben"
+		},
+		"category": "shoe"
+	},
+	{
+		"styleName": "MK3190",
+		"collectionName": "MICHAEL KORS TESTER",
+		"productName": {
+			"en": "Darci Silver-Tone Watch",
+			"es": "",
+			"fr": "",
+			"de": "",
+			"it": ""
+		},
+		"category": "watch"
+	}
+]

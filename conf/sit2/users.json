@@ -1,0 +1,815 @@
+[
+	{
+		"title": "Mr",
+		"firstname": "MKTester",
+		"lastname": "TestUS",
+		"password": "Tester1*",
+		"email": "mktester.int.us@gmail.com",
+		"country": "us",
+		"address": {
+			"country_code": "US",
+			"country": "United States",
+			"streetAddress1": "1 Meadowlands Plz",
+			"streetAddress2": "",
+			"city": "East Rutherford",
+			"state": "New Jersey",
+			"postalCode": "07073"
+		},
+		"address2": {
+			"country_code": "US",
+			"country": "United States",
+			"streetAddress1": "639 E Shaw Ave Ste 169",
+			"streetAddress2": "Suite 169",
+			"city": "Fresno",
+			"state": "California",
+			"postalCode": "93710"
+		},
+		"phoneNumber":  "9876543210",
+		"type": "registered",
+		"birthMonth": "02",
+		"birthDay": "05",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"firstname": "MKTester",
+		"lastname": "TestEnCA",
+		"password": "Tester1*",
+		"email": "mktester.int.ca.en@gmail.com",
+		"language" : "en",
+		"country": "ca",
+		"address": {
+			"country_code": "CA",
+			"country": "Canada",
+			"streetAddress1": "10 Karl Fraser Road",
+			"streetAddress2": "Unit J03",
+			"city": "Toronto",
+			"state":"Ontario",
+			"postalCode":"M3C 0E8"
+		},
+		"address2": {
+			"country_code": "CA",
+			"country": "Canada",
+			"streetAddress1": "8882 170 Street Nw Space",
+			"streetAddress2": "#2307",
+			"city": "Edmonton",
+			"state":"Alberta",
+			"postalCode":"T5T4M2"
+		},
+		"phoneNumber":  "9876543210",
+		"type": "registered",
+		"birthMonth": "02",
+		"birthDay": "05",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"firstname": "MKTester",
+		"lastname": "TestFrCA",
+		"password": "Tester1*",
+		"email": "mktester.int.ca.fr@gmail.com",
+		"language" : "fr",
+		"country": "ca",
+		"address": {
+			"country_code": "CA",
+			"country": "Canada",
+			"streetAddress1": "10 Karl Fraser Road",
+			"streetAddress2": "Unit J03",
+			"city": "Toronto",
+			"state":"Ontario",
+			"postalCode":"M3C 0E8"
+		},
+		"address2": {
+			"country_code": "CA",
+			"country": "Canada",
+			"streetAddress1": "8882 170 Street Nw Space",
+			"streetAddress2": "#2307",
+			"city": "Edmonton",
+			"state":"Alberta",
+			"postalCode":"T5T4M2"
+		},
+		"phoneNumber":  "9876543210",
+		"type": "registered",
+		"birthMonth": "02",
+		"birthDay": "05",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"firstname": "MKTester",
+		"lastname": "TestGB",
+		"password": "Tester1*",
+		"email": "mktester.int.uk@gmail.com",
+		"country": "gb",
+		"address": {
+			"country_code": "UK",
+			"country": "United Kingdom",
+			"streetAddress1": "179 Regent St",
+			"streetAddress2": "Regent",
+			"city": "London",
+			"province": "London",
+			"postalCode": "W1B 4JQ"
+		},
+		"address2": {
+			"country_code": "UK",
+			"country": "United Kingdom",
+			"streetAddress1": "28 James Street",
+			"streetAddress2": "Covent Garden",
+			"city": "London",
+			"province": "London",
+			"postalCode": "WC2E 8PA"
+		},
+		"phoneNumber":  "07449856321",
+		"type": "registered",
+		"birthMonth": "january",
+		"birthDay": "5",
+		"gender": "Male"
+
+	},
+	{
+		"title": "Mr",
+		"firstname": "John",
+		"lastname": "Doe",
+		"password": "Tester1*",
+		"email": "mktester.int.klarna.uk@gmail.com",
+		"country": "gb",
+		"address": {
+			"country_code": "UK",
+			"country": "United Kingdom",
+			"streetAddress1": "13 New Burlington St",
+			"streetAddress2": "",
+			"city": "London",
+			"province": "London",
+			"postalCode": "W13 3BG"
+		},
+		"phoneNumber":  "01895808221",
+		"type": "klarna",
+		"birthMonth": "january",
+		"birthDay": "5",
+		"gender": "Male"
+
+	},
+	{
+		"title": "Mrs",
+		"firstname": "MKTester",
+		"lastname": "TestFR",
+		"password": "Tester1*",
+		"email": "mktester.int.fr@gmail.com",
+		"country": "fr",
+		"address": {
+			"country_code": "FR",
+			"country": "France",
+			"streetAddress1": "279 Rue Saint-Honore",
+			"streetAddress2": "",
+			"province":"Paris",
+			"city": "Paris",
+			"postalCode": "75008"
+		},
+		"address2": {
+			"country_code": "FR",
+			"country": "France",
+			"streetAddress1": "41 Rue des Francs Bourgeois",
+			"streetAddress2": "75004 Paris",
+			"province":"Paris",
+			"city": "Paris",
+			"postalCode": "75004"
+		},
+		"phoneNumber":  "9876543210",
+		"type": "registered",
+		"birthMonth": "january",
+		"birthDay": "5",
+		"gender": "Female"
+	},
+	{
+		"title": "Mr",
+		"firstname": "MKTester",
+		"lastname": "TestES",
+		"password": "Tester1*",
+		"email": "mktester.int.es@gmail.com",
+		"country": "es",
+		"address": {
+			"country_code": "ES",
+			"country": "Spain",
+			"streetAddress1": "Calle Serrano 32",
+			"streetAddress2": "",
+			"city": "Madrid",
+			"postalCode": "28001"
+		},
+		"address2": {
+			"country_code": "ES",
+			"country": "Spain",
+			"streetAddress1": "Padre Huidobro",
+			"streetAddress2": "",
+			"city": "Madrid",
+			"postalCode": "28224"
+		},
+		"phoneNumber": "917813157",
+		"type": "registered",
+		"birthMonth": "january",
+		"birthDay": "5",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"firstname": "MKTester",
+		"lastname": "TestCH",
+		"password": "Tester1*",
+		"email": "mktester.int.ch@gmail.com",
+		"country": "ch",
+		"address": {
+			"country_code": "CH",
+			"country": "Switzerland",
+			"streetAddress1": "Rue de la Croix-d'Or 1",
+			"streetAddress2": "",
+			"city": "Geneva",
+			"postalCode": "1201"
+		},
+		"address2": {
+			"country_code": "CH",
+			"country": "Switzerland",
+			"streetAddress1": "Foxtown (Level 2, Unit 206)",
+			"streetAddress2": "",
+			"city": "Mendrisio",
+			"postalCode": "6850"
+		},
+		"phoneNumber": "0223101001",
+		"type": "registered",
+		"birthMonth": "january",
+		"birthDay": "8",
+		"gender": "Female"
+	},
+	{
+		"title": "Mr",
+		"firstname": "Max",
+		"lastname": "Mustermann",
+		"password": "Tester1*",
+		"email": "mktester.int.klarna.ch@gmail.com",
+		"country": "ch",
+		"address": {
+			"country_code": "CH",
+			"country": "Switzerland",
+			"streetAddress1": "Bahnhofstrasse 77",
+			"streetAddress2": "",
+			"city": "Zürich",
+			"postalCode": "8001"
+		},
+		"phoneNumber": "0798541234",
+		"type": "klarna",
+		"birthMonth": "january",
+		"birthDay": "8",
+		"gender": "Female"
+	},
+	{
+		"title": "Mr",
+		"firstname": "MKTester",
+		"lastname": "TestAT",
+		"password": "Tester1*",
+		"email": "mktester.int.at@gmail.com",
+		"country": "at",
+		"address": {
+			"country_code": "AT",
+			"country": "Austria",
+			"streetAddress1": "Kohlmarkt 8-10",
+			"streetAddress2": "",
+			"city": "Wien",
+			"province":"Wien",
+			"postalCode": "1010"
+		},
+		"address2": {
+			"country_code": "AT",
+			"country": "Austria",
+			"streetAddress1": "Kohlmarkt 12",
+			"streetAddress2": "",
+			"city": "Wien",
+			"province":"Wien",
+			"postalCode": "1010"
+		},
+		"phoneNumber":  "9876543210",
+		"type": "registered",
+		"birthMonth": "january",
+		"birthDay": "8",
+		"gender": "Female"
+	},
+	{
+		"title": "Mr",
+		"firstname": "MKTester",
+		"lastname": "TestDE",
+		"password": "Tester1*",
+		"email": "mktester.int.de@gmail.com",
+		"country": "de",
+		"address": {
+			"country_code": "DE",
+			"country": "Germany",
+			"streetAddress1": "Königsallee 11d,",
+			"streetAddress2": "",
+			"city": "Dusseldorf",
+			"postalCode": "10719"
+		},
+		"address2": {
+			"country_code": "DE",
+			"country": "Germany",
+			"streetAddress1": "Theatiner Strasse 36",
+			"streetAddress2": "München Germany",
+			"city": "Munich",
+			"postalCode": "80333"
+		},
+		"phoneNumber":  "2118763880",
+		"type": "registered",
+		"birthMonth": "february",
+		"birthDay": "7",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"firstname": "Max",
+		"lastname": "Mustermann",
+		"password": "Tester1*",
+		"email": "mktester.int.klarna.de@gmail.com",
+		"country": "de",
+		"address": {
+			"country_code": "DE",
+			"country": "Germany",
+			"streetAddress1": "Hellersbergstr. 14",
+			"streetAddress2": "",
+			"city": "Neuss",
+			"postalCode": "41460"
+		},
+		"phoneNumber":  "015221133566",
+		"type": "klarna",
+		"birthMonth": "february",
+		"birthDay": "7",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"firstname": "MKTester",
+		"lastname": "TestIT",
+		"password": "Tester1*",
+		"email": "mktester.int.it@gmail.com",
+		"country": "it",
+		"address": {
+			"country_code": "IT",
+			"country": "Italy",
+			"streetAddress1": "Via della Spiga, 8",
+			"streetAddress2": "",
+			"city": "Milano",
+			"postalCode": "20121"
+		},
+		"address2": {
+			"country_code": "IT",
+			"country": "Italy",
+			"streetAddress1": "Piazza della Repubblica, 43",
+			"streetAddress2": "50123 Firenze",
+			"city": "Florence",
+			"postalCode": "50123"
+		},
+		"phoneNumber": "0276341381",
+		"type": "registered",
+		"birthMonth": "february",
+		"birthDay": "7",
+		"gender": "Female"
+	},
+	{
+		"title": "Mr",
+		"firstname": "MKTester",
+		"lastname": "TestPT",
+		"password": "Tester1*",
+		"email": "mktester.int.pt@gmail.com",
+		"country": "pt",
+		"address": {
+			"country_code": "PT",
+			"country": "Portugal",
+			"streetAddress1": "Avenida Da Liberdade 108A",
+			"streetAddress2": "",
+			"city": "Lisboa",
+			"province":"Lisboa",
+			"postalCode": "1250-146"
+		},
+		"address2": {
+			"country_code": "PT",
+			"country": "Portugal",
+			"streetAddress1": "Avda Antonio Augusto Aguiar 31",
+			"streetAddress2": "",
+			"city": "Lisboa",
+			"province":"Lisboa",
+			"postalCode": "1069-413"
+		},
+		"phoneNumber": "213403330",
+		"type": "registered",
+		"birthMonth": "march",
+		"birthDay": "6",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"firstname": "Test",
+		"lastname": "Michael",
+		"password": "Tester1*",
+		"email": "mktester.int.au@gmail.com",
+		"country": "au",
+		"address": {
+			"country_code": "AU",
+			"country": "Australia",
+			"streetAddress1": "176 Cumberland St",
+			"streetAddress2": "Sydney NSW",
+			"city": "Sydney",
+			"province":"New South Wales",
+			"postalCode": "2000"
+		},
+		"address2": {
+			"country_code": "AU",
+			"country": "Australia",
+			"streetAddress1": "455 George Street",
+			"streetAddress2": "Sydney NSW",
+			"city": "Sydney",
+			"province":"New South Wales",
+			"postalCode": "2000"
+		},
+		"phoneNumber": "6145645764564565",
+		"type": "registered",
+		"birthMonth": "march",
+		"birthDay": "6",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"firstname": "Test",
+		"lastname": "Michael",
+		"password": "Tester1*",
+		"email": "mktester.int.gh@gmail.com",
+		"country": "gh",
+		"address": {
+			"country_code": "GH",
+			"country": "Ghana",
+			"streetAddress1": "37 Osu La Crescent",
+			"streetAddress2": "Nyaniba Estates",
+			"city": "Accra",
+			"postalCode": ""
+		},
+		"address2": {
+			"country_code": "GH",
+			"country": "Ghana",
+			"streetAddress1": "40 Osu La Crescent",
+			"streetAddress2": "Nyaniba Estates",
+			"city": "Accra",
+			"postalCode": ""
+		},
+		"phoneNumber": "233267878264",
+		"type": "registered",
+		"birthMonth": "march",
+		"birthDay": "6",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"email": "mktester.int.fr@gmail.com",
+		"firstname": "����������������",
+		"lastname": "��ܟ����������Ԍ",
+		"password": "Tester1*",
+		"country": "fr",
+		"address": {
+			"country_code": "FR",
+			"country": "France",
+			"streetAddress1": "279 Rue Saint-Honore",
+			"streetAddress2": "",
+			"province":"Paris",
+			"city": "Paris",
+			"postalCode": "75008"
+		},
+		"address2": {
+			"country_code": "FR",
+			"country": "France",
+			"streetAddress1": "41 Rue des Francs Bourgeois",
+			"streetAddress2": "75004 Paris",
+			"province":"Paris",
+			"city": "Paris",
+			"postalCode": "75004"
+		},
+		"phoneNumber":  "9876543210",
+		"type": "specialcharacters"
+	},
+	{
+		"title": "Mr",
+		"email": "mktester.int.fr@gmail.com",
+		"firstname": "���������",
+		"lastname": "������ܿ�",
+		"password": "Tester1*",
+		"country": "es",
+        "address": {
+			"country_code": "ES",
+			"country": "Spain",
+			"streetAddress1": "Calle Serrano 32",
+			"streetAddress2": "",
+			"city": "Madrid",
+			"postalCode": "28001"
+		},
+		"address2": {
+			"country_code": "ES",
+			"country": "Spain",
+			"streetAddress1": "Padre Huidobro",
+			"streetAddress2": "",
+			"city": "Madrid",
+			"postalCode": "28224"
+		},
+		"phoneNumber": "917813157",
+		"type": "specialcharacters"
+	},
+	{
+		"title": "Mr",
+		"email": "mktester.int.fr@gmail.com",
+		"firstname": "���߀DE",
+		"lastname": "���߀DE",
+		"password": "Tester1*",
+		"country": "de",
+        "address": {
+			"country_code": "DE",
+			"country": "Germany",
+			"streetAddress1": "Königsallee 11d,",
+			"streetAddress2": "",
+			"city": "Dusseldorf",
+			"postalCode": "10719"
+		},
+		"address2": {
+			"country_code": "DE",
+			"country": "Germany",
+			"streetAddress1": "Theatiner Strasse 36",
+			"streetAddress2": "München Germany",
+			"city": "Munich",
+			"postalCode": "80333"
+		},
+		"phoneNumber":  "2118763880",
+		"type": "specialcharacters"
+	},
+	{
+		"title": "Mr",
+		"email": "mktester.int.fr@gmail.com",
+		"firstname": "�������",
+		"lastname": "�������",
+		"password": "Tester1*",
+		"country": "it",
+        "address": {
+			"country_code": "IT",
+			"country": "Italy",
+			"streetAddress1": "Via della Spiga, 8",
+			"streetAddress2": "",
+			"city": "Milano",
+			"postalCode": "20121"
+		},
+		"address2": {
+			"country_code": "IT",
+			"country": "Italy",
+			"streetAddress1": "Piazza della Repubblica, 43",
+			"streetAddress2": "50123 Firenze",
+			"city": "Florence",
+			"postalCode": "50123"
+		},
+		"phoneNumber": "0276341381",
+		"type": "specialcharacters"
+	},
+	{	
+		"title": "Mr",
+		"email": "mktester.int.fr@gmail.com",
+		"firstname": "�������������PT",
+		"lastname": "�������������PT",
+		"password": "Tester1*",
+		"country": "pt",
+        "address": {
+			"country_code": "PT",
+			"country": "Portugal",
+			"streetAddress1": "Avenida Da Liberdade 108A",
+			"streetAddress2": "",
+			"city": "Lisboa",
+			"province":"Lisboa",
+			"postalCode": "1250-146"
+		},
+		"address2": {
+			"country_code": "PT",
+			"country": "Portugal",
+			"streetAddress1": "Avda Antonio Augusto Aguiar 31",
+			"streetAddress2": "",
+			"city": "Lisboa",
+			"province":"Lisboa",
+			"postalCode": "1069-413"
+		},
+		"phoneNumber": "213403330",
+		"type": "specialcharacters"
+	},
+	{
+		"title": "Mr",
+		"firstname": "����������������",
+		"lastname": "��ܟ����������Ԍ",
+		"password": "Tester1*",
+		"email": "mktester.int.us@gmail.com",
+		"country": "us",
+		"address": {
+			"country_code": "US",
+			"country": "United States",
+			"streetAddress1": "1 Meadowlands Plz",
+			"streetAddress2": "",
+			"city": "East Rutherford",
+			"state": "New Jersey",
+			"postalCode": "07073"
+		},
+		"address2": {
+			"country_code": "US",
+			"country": "United States",
+			"streetAddress1": "639 E Shaw Ave Ste 169",
+			"streetAddress2": "Suite 169",
+			"city": "Fresno",
+			"state": "California",
+			"postalCode": "93710"
+		},
+		"phoneNumber":  "9876543210",
+		"type": "specialcharacters",
+		"birthMonth": "02",
+		"birthDay": "05",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"firstname": "����������������",
+		"lastname": "����������������",
+		"password": "Tester1*",
+		"email": "mktester.int.ca.en@gmail.com",
+		"language" : "en",
+		"country": "ca",
+		"address": {
+			"country_code": "CA",
+			"country": "Canada",
+			"streetAddress1": "10 Karl Fraser Road",
+			"streetAddress2": "Unit J03",
+			"city": "Toronto",
+			"state":"Ontario",
+			"postalCode":"M3C 0E8"
+		},
+		"address2": {
+			"country_code": "CA",
+			"country": "Canada",
+			"streetAddress1": "8882 170 Street Nw Space",
+			"streetAddress2": "#2307",
+			"city": "Edmonton",
+			"state":"Alberta",
+			"postalCode":"T5T4M2"
+		},
+		"phoneNumber":  "9876543210",
+		"type": "specialcharacters",
+		"birthMonth": "02",
+		"birthDay": "05",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"firstname": "����������������",
+		"lastname": "����������������",
+		"password": "Tester1*",
+		"email": "mktester.int.ca.fr@gmail.com",
+		"language" : "fr",
+		"country": "ca",
+		"address": {
+			"country_code": "CA",
+			"country": "Canada",
+			"streetAddress1": "10 Karl Fraser Road",
+			"streetAddress2": "Unit J03",
+			"city": "Toronto",
+			"state":"Ontario",
+			"postalCode":"M3C 0E8"
+		},
+		"address2": {
+			"country_code": "CA",
+			"country": "Canada",
+			"streetAddress1": "8882 170 Street Nw Space",
+			"streetAddress2": "#2307",
+			"city": "Edmonton",
+			"state":"Alberta",
+			"postalCode":"T5T4M2"
+		},
+		"phoneNumber":  "9876543210",
+		"type": "specialcharecters",
+		"birthMonth": "02",
+		"birthDay": "05",
+		"gender": "Male"
+	},
+	{
+		"title": "Mr",
+		"firstname": "���߀DE",
+		"lastname": "���߀DE",
+		"password": "Tester1*",
+		"email": "mktester.int.uk@gmail.com",
+		"country": "gb",
+		"address": {
+			"country_code": "UK",
+			"country": "United Kingdom",
+			"streetAddress1": "179 Regent St",
+			"streetAddress2": "Regent",
+			"city": "London",
+			"province": "London",
+			"postalCode": "W1B 4JQ"
+		},
+		"address2": {
+			"country_code": "UK",
+			"country": "United Kingdom",
+			"streetAddress1": "28 James Street",
+			"streetAddress2": "Covent Garden",
+			"city": "London",
+			"province": "London",
+			"postalCode": "WC2E 8PA"
+		},
+		"phoneNumber":  "07449856321",
+		"type": "specialcharacters",
+		"birthMonth": "january",
+		"birthDay": "5",
+		"gender": "Male"
+
+	},
+	{
+		"title": "Mr",
+		"firstname": "���߀DE",
+		"lastname": "���߀DE",
+		"password": "Tester1*",
+		"email": "mktester.int.ch@gmail.com",
+		"country": "ch",
+		"address": {
+			"country_code": "CH",
+			"country": "Switzerland",
+			"streetAddress1": "Rue de la Croix-d'Or 1",
+			"streetAddress2": "",
+			"city": "Geneva",
+			"postalCode": "1201"
+		},
+		"address2": {
+			"country_code": "CH",
+			"country": "Switzerland",
+			"streetAddress1": "Foxtown (Level 2, Unit 206)",
+			"streetAddress2": "",
+			"city": "Mendrisio",
+			"postalCode": "6850"
+		},
+		"phoneNumber": "0223101001",
+		"type": "specialcharacters",
+		"birthMonth": "january",
+		"birthDay": "8",
+		"gender": "Female"
+	},
+	{
+		"title": "Mr",
+		"firstname": "���߀DE",
+		"lastname": "���߀DE",
+		"password": "Tester1*",
+		"email": "mktester.int.at@gmail.com",
+		"country": "at",
+		"address": {
+			"country_code": "AT",
+			"country": "Austria",
+			"streetAddress1": "Kohlmarkt 8-10",
+			"streetAddress2": "",
+			"city": "Wien",
+			"province":"Wien",
+			"postalCode": "1010"
+		},
+		"address2": {
+			"country_code": "AT",
+			"country": "Austria",
+			"streetAddress1": "Kohlmarkt 12",
+			"streetAddress2": "",
+			"city": "Wien",
+			"province":"Wien",
+			"postalCode": "1010"
+		},
+		"phoneNumber":  "9876543210",
+		"type": "specialcharacters",
+		"birthMonth": "january",
+		"birthDay": "8",
+		"gender": "Female"
+	},
+	{
+		"title": "Mr",
+		"firstname": "���߀DE",
+		"lastname": "���߀DE",
+		"password": "Tester1*",
+		"email": "mktester.int.au@gmail.com",
+		"country": "au",
+		"address": {
+			"country_code": "AU",
+			"country": "Australia",
+			"streetAddress1": "176 Cumberland St",
+			"streetAddress2": "Sydney NSW",
+			"city": "Sydney",
+			"province":"New South Wales",
+			"postalCode": "2000"
+		},
+		"address2": {
+			"country_code": "AU",
+			"country": "Australia",
+			"streetAddress1": "455 George Street",
+			"streetAddress2": "Sydney NSW",
+			"city": "Sydney",
+			"province":"New South Wales",
+			"postalCode": "2000"
+		},
+		"phoneNumber": "6145645764564565",
+		"type": "specialcharacters",
+		"birthMonth": "march",
+		"birthDay": "6",
+		"gender": "Male"
+	}
+]

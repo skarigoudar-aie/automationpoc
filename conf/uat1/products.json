@@ -1,0 +1,50 @@
+[
+	{
+		"styleName": "30F2GTTT8l",
+		"collectionName": "MICHAEL MICHAEL KORS",
+		"productName": {
+			"en": "Jet Set Top-Zip Saffianio Leather Totes_QE Testing 01OCT",
+			"es": "Pantalón de campana palazzo de seda georgette con estampado de girasoles ES",
+			"fr": "Sac Jet Set en cuir saffiano à fermeture à glissière sur le dessus FR",
+			"de": "Tragetasche Jet Set aus Saffianleder mit Reißverschluss an der Oberseite DE",
+			"it": "Borsa tote Jet Set in pelle saffiano con zip IT"
+		},
+		"category": "bag"
+	},
+	{
+		"styleName": "30H1GTVT1L",
+		"collectionName": "MICHAEL MICHAEL KORS",
+		"productName": {
+			"en": "Jet Set Travel Saffiano Leather Small Tote...Test",
+			"es": "Bolso tote Jet Set Travel pequeño de piel saffiano",
+			"fr": "Petit sac Jet Set Travel en cuir saffiano",
+			"de": "Tragetasche Jet Set Travel Small aus Saffianleder",
+			"it": "Borsa tote Jet Set Travel piccola in pelle saffiano"
+		},
+		"category": "sunglasses"
+	},
+	{
+		"styleName": "30F6GM9T3L",
+		"collectionName": "MICHAEL KORS TESTER",
+		"productName": {
+			"en": "Mercer Large Leather Tote Imported Zensar",
+			"es": "Bolso tote Mercer grande de piel",
+			"fr": "Grand sac à main Mercer en cuir",
+			"de": "Tragetasche Mercer Large aus Leder",
+			"it": "Borsa tote Mercer grande in pelle"
+		},
+		"category": "shoe"
+	},
+	{
+		"styleName": "MK3190",
+		"collectionName": "MICHAEL KORS TESTER",
+		"productName": {
+			"en": "Darci Silver-Tone Watch",
+			"es": "",
+			"fr": "",
+			"de": "",
+			"it": ""
+		},
+		"category": "watch"
+	}
+]

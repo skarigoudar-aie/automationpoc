@@ -1,0 +1,72 @@
+[
+	{
+		"styleName": "30T9GNDL3L",
+		"collectionName": "MICHAEL MICHAEL KORS",
+		"productName": {
+			"en": "Lexington Large Pebbled Leather Shoulder Bag",
+			"es": "Bolso de hombro Lexington grande de piel granulada",
+			"fr": "Grand sac porté épaule Lexington en cuir grainé",
+			"de": "Schultertasche Lexington Large aus gekrispeltem Leder",
+			"it": "Borsa a spalla Lexington grande in pelle martellata"
+		},
+		"category": "sunglasses"
+	},
+	{
+		"styleName": "34F9GTTE9B",
+		"collectionName": "MICHAEL MICHAEL KORS",
+		"productName": {
+			"en": "Logo Continental Wristlet",
+			"es": "Bolso de pulsera continental con logotipo",
+			"fr": "Étui à sangle continental avec logo",
+			"de": "Handgelenktasche im Kontinental-Format mit Logo",
+			"it": "Pochette da polso Continental con logo"
+		},
+		"category": "wallets"
+	},
+	{
+		"styleName": "30S9GM9S2T",
+		"collectionName": "MICHAEL MICHAEL KORS",
+		"productName": {
+			"en": "Mercer Medium Tri-Color Pebbled Leather Belted Satchel",
+			"es": "Mochila Viv pequeña de piel granulada",
+			"fr": "Petit sac à dos Viv en cuir grainé",
+			"de": "Rucksack Viv Small aus gekrispeltem Leder",
+			"it": "Zaino Viv piccolo in pelle martellata"
+		},
+		"category": "monogram bag"
+	},
+	{
+		"styleName": "43R0BIFS2B",
+		"collectionName": "michael michael kors",
+		"productName": {
+			"en": "Billie Color-Block Logo Trainer",
+			"es": "Zapatilla Billie con logotipos y bloques de color",
+			"fr": "Basket à logo et couleurs contrastées Billie",
+			"de": "Sneaker Billie aus Logostoff in Blockfarben",
+			"it": "Sneaker Billie con logo stampato color block"
+		},
+		"category": "shoe"
+	},
+	{
+		"styleName": "43R0BIFS2B",
+		"collectionName": "michael michael kors",
+		"productName": {
+			"en": "Billie Color-Block Logo Trainer",
+			"es": "Zapatilla Billie con logotipos y bloques de color",
+			"fr": "Basket à logo et couleurs contrastées Billie",
+			"de": "Sneaker Billie aus Logostoff in Blockfarben"
+		},
+		"category": "limited-availability"
+	},
+	{
+		"styleName": "43R0BIFS2B",
+		"collectionName": "michael michael kors",
+		"productName": {
+			"en": "Billie Color-Block Logo Trainer",
+			"es": "Zapatilla Billie con logotipos y bloques de color",
+			"fr": "Basket à logo et couleurs contrastées Billie",
+			"de": "Sneaker Billie aus Logostoff in Blockfarben"
+		},
+		"category": "out-of-stock"
+	}
+]

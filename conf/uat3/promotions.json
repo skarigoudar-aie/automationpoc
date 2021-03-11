@@ -1,0 +1,388 @@
+[
+	{
+		"promotionType": "5PERCENTOFFONORDER",
+		"couponCode": "AUTO5OFFORDER",
+		"country": "gb",
+		"couponDisplayName": "Automation Order level 1"
+	},
+		{
+		"promotionType": "10$OFFONORDER",
+		"couponCode": "AUTO$10OFFORDER",
+		"country": "gb",
+		"couponDisplayName": "Automation Order level Amount off 2"
+	},
+		{
+		"promotionType": "10PERCENTOFFONORDER",
+		"couponCode": "AUTO10OFFORDER",
+		"country": "gb",
+		"couponDisplayName": "Automation Order level 2"
+	},
+		{
+		"promotionType": "15$OFFONORDER",
+		"couponCode": "AUTO$15OFFORDER",
+		"country": "gb",
+		"couponDisplayName": "Automation Order level Amount off 3"
+	},
+		{
+		"promotionType": "15PERCENTOFFONORDER",
+		"couponCode": "AUTO15OFFORDER",
+		"country": "gb",
+		"couponDisplayName": "Automation Order level 3"
+	},
+			{
+		"promotionType": "5$OFFONORDER",
+		"couponCode": "AUTO$5OFFORDER",
+		"country": "gb",
+		"couponDisplayName": "Automation Order level Amount off 1"
+	},
+        {
+		"promotionType": "5PERCENTOFFONORDER",
+		"couponCode": "AUTO5OFFORDER",
+		"country": "fr",
+		"couponDisplayName": "Automation Order level 1"
+	},
+		{
+		"promotionType": "10$OFFONORDER",
+		"couponCode": "AUTO$10OFFORDER",
+		"country": "fr",
+		"couponDisplayName": "Automation Order level Amount off 2"
+	},
+		{
+		"promotionType": "10PERCENTOFFONORDER",
+		"couponCode": "AUTO10OFFORDER",
+		"country": "fr",
+		"couponDisplayName": "Automation Order level 2"
+	},
+		{
+		"promotionType": "15$OFFONORDER",
+		"couponCode": "AUTO$15OFFORDER",
+		"country": "fr",
+		"couponDisplayName": "Automation Order level Amount off 3"
+	},
+		{
+		"promotionType": "15PERCENTOFFONORDER",
+		"couponCode": "AUTO15OFFORDER",
+		"country": "fr",
+		"couponDisplayName": "Automation Order level 3"
+	},
+			{
+		"promotionType": "5$OFFONORDER",
+		"couponCode": "AUTO$5OFFORDER",
+		"country": "fr",
+		"couponDisplayName": "Automation Order level Amount off 1"
+	},
+        {
+		"promotionType": "5PERCENTOFFONORDER",
+		"couponCode": "AUTO5OFFORDER",
+		"country": "es",
+		"couponDisplayName": "Automation Order level 1"
+	},
+		{
+		"promotionType": "10$OFFONORDER",
+		"couponCode": "AUTO$10OFFORDER",
+		"country": "es",
+		"couponDisplayName": "Automation Order level Amount off 2"
+	},
+		{
+		"promotionType": "10PERCENTOFFONORDER",
+		"couponCode": "AUTO10OFFORDER",
+		"country": "es",
+		"couponDisplayName": "Automation Order level 2"
+	},
+		{
+		"promotionType": "15$OFFONORDER",
+		"couponCode": "AUTO$15OFFORDER",
+		"country": "es",
+		"couponDisplayName": "Automation Order level Amount off 3"
+	},
+		{
+		"promotionType": "15PERCENTOFFONORDER",
+		"couponCode": "AUTO15OFFORDER",
+		"country": "es",
+		"couponDisplayName": "Automation Order level 3"
+	},
+			{
+		"promotionType": "5$OFFONORDER",
+		"couponCode": "AUTO$5OFFORDER",
+		"country": "es",
+		"couponDisplayName": "Automation Order level Amount off 1"
+	},
+	   {
+		"promotionType": "5PERCENTOFFONORDER",
+		"couponCode": "AUTO5OFFORDER",
+		"country": "ch",
+		"couponDisplayName": "Automation Order level 1"
+	},
+		{
+		"promotionType": "10$OFFONORDER",
+		"couponCode": "AUTO$10OFFORDER",
+		"country": "ch",
+		"couponDisplayName": "Automation Order level Amount off 2"
+	},
+		{
+		"promotionType": "10PERCENTOFFONORDER",
+		"couponCode": "AUTO10OFFORDER",
+		"country": "ch",
+		"couponDisplayName": "Automation Order level 2"
+	},
+		{
+		"promotionType": "15$OFFONORDER",
+		"couponCode": "AUTO$15OFFORDER",
+		"country": "ch",
+		"couponDisplayName": "Automation Order level Amount off 3"
+	},
+		{
+		"promotionType": "15PERCENTOFFONORDER",
+		"couponCode": "AUTO15OFFORDER",
+		"country": "ch",
+		"couponDisplayName": "Automation Order level 3"
+	},
+			{
+		"promotionType": "5$OFFONORDER",
+		"couponCode": "AUTO$5OFFORDER",
+		"country": "ch",
+		"couponDisplayName": "Automation Order level Amount off 1"
+	},
+	   {
+		"promotionType": "5PERCENTOFFONORDER",
+		"couponCode": "AUTO5OFFORDER",
+		"country": "de",
+		"couponDisplayName": "Automation Order level 1"
+	},
+		{
+		"promotionType": "10$OFFONORDER",
+		"couponCode": "AUTO$10OFFORDER",
+		"country": "de",
+		"couponDisplayName": "Automation Order level Amount off 2"
+	},
+		{
+		"promotionType": "10PERCENTOFFONORDER",
+		"couponCode": "AUTO10OFFORDER",
+		"country": "de",
+		"couponDisplayName": "Automation Order level 2"
+	},
+		{
+		"promotionType": "15$OFFONORDER",
+		"couponCode": "AUTO$15OFFORDER",
+		"country": "de",
+		"couponDisplayName": "Automation Order level Amount off 3"
+	},
+		{
+		"promotionType": "15PERCENTOFFONORDER",
+		"couponCode": "AUTO15OFFORDER",
+		"country": "de",
+		"couponDisplayName": "Automation Order level 3"
+	},
+			{
+		"promotionType": "5$OFFONORDER",
+		"couponCode": "AUTO$5OFFORDER",
+		"country": "de",
+		"couponDisplayName": "Automation Order level Amount off 1"
+	},
+       {
+		"promotionType": "5PERCENTOFFONORDER",
+		"couponCode": "AUTO5OFFORDER",
+		"country": "it",
+		"couponDisplayName": "Automation Order level 1"
+	},
+		{
+		"promotionType": "10$OFFONORDER",
+		"couponCode": "AUTO$10OFFORDER",
+		"country": "it",
+		"couponDisplayName": "Automation Order level Amount off 2"
+	},
+		{
+		"promotionType": "10PERCENTOFFONORDER",
+		"couponCode": "AUTO10OFFORDER",
+		"country": "it",
+		"couponDisplayName": "Automation Order level 2"
+	},
+		{
+		"promotionType": "15$OFFONORDER",
+		"couponCode": "AUTO$15OFFORDER",
+		"country": "it",
+		"couponDisplayName": "Automation Order level Amount off 3"
+	},
+		{
+		"promotionType": "15PERCENTOFFONORDER",
+		"couponCode": "AUTO15OFFORDER",
+		"country": "it",
+		"couponDisplayName": "Automation Order level 3"
+	},
+			{
+		"promotionType": "5$OFFONORDER",
+		"couponCode": "AUTO$5OFFORDER",
+		"country": "it",
+		"couponDisplayName": "Automation Order level Amount off 1"
+	},
+	    {
+		"promotionType": "5PERCENTOFFONORDER",
+		"couponCode": "AUTO5OFFORDER",
+		"country": "pt",
+		"couponDisplayName": "Automation Order level 1"
+	},
+		{
+		"promotionType": "10$OFFONORDER",
+		"couponCode": "AUTO$10OFFORDER",
+		"country": "pt",
+		"couponDisplayName": "Automation Order level Amount off 2"
+	},
+		{
+		"promotionType": "10PERCENTOFFONORDER",
+		"couponCode": "AUTO10OFFORDER",
+		"country": "pt",
+		"couponDisplayName": "Automation Order level 2"
+	},
+		{
+		"promotionType": "15$OFFONORDER",
+		"couponCode": "AUTO$15OFFORDER",
+		"country": "pt",
+		"couponDisplayName": "Automation Order level Amount off 3"
+	},
+		{
+		"promotionType": "15PERCENTOFFONORDER",
+		"couponCode": "AUTO15OFFORDER",
+		"country": "pt",
+		"couponDisplayName": "Automation Order level 3"
+	},
+			{
+		"promotionType": "5$OFFONORDER",
+		"couponCode": "AUTO$5OFFORDER",
+		"country": "pt",
+		"couponDisplayName": "Automation Order level Amount off 1"
+	},
+	    {
+		"promotionType": "5PERCENTOFFONORDER",
+		"couponCode": "AUTO5OFFORDER",
+		"country": "au",
+		"couponDisplayName": "Automation Order level 1"
+	},
+		{
+		"promotionType": "10$OFFONORDER",
+		"couponCode": "AUTO$10OFFORDER",
+		"country": "au",
+		"couponDisplayName": "Automation Order level Amount off 2"
+	},
+		{
+		"promotionType": "10PERCENTOFFONORDER",
+		"couponCode": "AUTO10OFFORDER",
+		"country": "au",
+		"couponDisplayName": "Automation Order level 2"
+	},
+		{
+		"promotionType": "15$OFFONORDER",
+		"couponCode": "AUTO$15OFFORDER",
+		"country": "au",
+		"couponDisplayName": "Automation Order level Amount off 3"
+	},
+		{
+		"promotionType": "15PERCENTOFFONORDER",
+		"couponCode": "AUTO15OFFORDER",
+		"country": "au",
+		"couponDisplayName": "Automation Order level 3"
+	},
+			{
+		"promotionType": "5$OFFONORDER",
+		"couponCode": "AUTO$5OFFORDER",
+		"country": "au",
+		"couponDisplayName": "Automation Order level Amount off 1"
+	},
+	    {
+		"promotionType": "5PERCENTOFFONORDER",
+		"couponCode": "AUTO5OFFORDER",
+		"country": "fr",
+		"couponDisplayName": "Automation Order level 1"
+	},
+		{
+		"promotionType": "5PERCENTOFFONORDER",
+		"couponCode": "ORDER5OFF",
+		"country": "US",
+		"couponDisplayName": "Automation Order level 1"
+	},
+		{
+		"promotionType": "10$OFFONORDER",
+		"couponCode": "ORDER$10OFF",
+		"country": "US",
+		"couponDisplayName": "Automation Order level Amount off 2"
+	},
+		{
+		"promotionType": "10PERCENTOFFONORDER",
+		"couponCode": "ORDER10OFF",
+		"country": "US",
+		"couponDisplayName": "Automation Order level 2"
+	},
+		{
+		"promotionType": "15$OFFONORDER",
+		"couponCode": "ORDER$15OFF",
+		"country": "US",
+		"couponDisplayName": "Automation Order level Amount off 3"
+	},
+		{
+		"promotionType": "15PERCENTOFFONORDER",
+		"couponCode": "ORDER15OFF",
+		"country": "US",
+		"couponDisplayName": "Automation Order level 3"
+	},
+		{
+		"promotionType": "5$OFFONORDER",
+		"couponCode": "ORDER$5OFF",
+		"country": "US",
+		"couponDisplayName": "Automation Order level Amount off 1"
+	},
+		{
+		"promotionType": "5PERCENTOFFONORDER",
+		"couponCode": "ORDER5OFF",
+		"country": "ca",
+		"couponDisplayName": "Automation Order level 1"
+	},
+		{
+		"promotionType": "10$OFFONORDER",
+		"couponCode": "ORDER$10OFF",
+		"country": "ca",
+		"couponDisplayName": "Automation Order level Amount off 2"
+	},
+		{
+		"promotionType": "10PERCENTOFFONORDER",
+		"couponCode": "ORDER10OFF",
+		"country": "ca",
+		"couponDisplayName": "Automation Order level 2"
+	},
+		{
+		"promotionType": "15$OFFONORDER",
+		"couponCode": "ORDER$15OFF",
+		"country": "ca",
+		"couponDisplayName": "Automation Order level Amount off 3"
+	},
+		{
+		"promotionType": "15PERCENTOFFONORDER",
+		"couponCode": "ORDER15OFF",
+		"country": "ca",
+		"couponDisplayName": "Automation Order level 3"
+	},
+		{
+		"promotionType": "5$OFFONORDER",
+		"couponCode": "ORDER$5OFF",
+		"country": "ca",
+		"couponDisplayName": "Automation Order level Amount off 1"
+	},
+		{
+		"promotionType": "ITEM20PEROFF",
+		"couponCode": "ITEM20PEROFF",
+		"country": "all",
+		"couponDisplayName": "item level 20 percent off"
+	},
+		{
+		"promotionType": "ITEM10PEROFF",
+		"couponCode": "ITEM10PEROFF",
+		"country": "all",
+		"couponDisplayName": "item level 10 percent off"
+	},
+		{
+		"promotionType": "ITEM50PEROFF",
+		"couponCode": "ITEM50PEROFF",
+		"country": "all",
+		"couponDisplayName": "item level 50 percent off"
+	}
+
+
+]

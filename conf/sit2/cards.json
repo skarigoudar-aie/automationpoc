@@ -1,0 +1,21 @@
+[
+	{
+		"cardName": "Visa",
+		"cardNumber": "4111111111111111",
+		"expirationMM": "12",
+		"expirationYYYY": "2029",
+		"securityCode": "123"
+	},
+	{
+		"country": "eu",
+		"cardName": "GiftCard",
+		"cardNumber": "6006495908999905505",
+		"securityCode": "8077"
+	},
+	{
+		"country": "na",
+		"cardName": "GiftCard",
+		"cardNumber": "6006495908999905505",
+		"securityCode": "8077"
+	}
+]
