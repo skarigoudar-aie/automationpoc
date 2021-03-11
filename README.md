@@ -68,4 +68,4 @@
 
 ## Contact ##
 
-Questions? Please contact <Rama.Gunjaipalli@michaelkors.com> or <Raja.SekharRavi@MichaelKors.com>
+Questions? Please contact <skarigoudar@aienterprise.com> or <akumari@aienterprise.com> or <stripati@aienterprise.com> or <npolishetty@aienterprise.com>
