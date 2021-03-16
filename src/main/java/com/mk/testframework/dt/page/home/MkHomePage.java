@@ -174,6 +174,24 @@ public class MkHomePage {
 	@FindBy(xpath = "//ul[@class='footer_links_list']/li/a[contains(@href,'/gift-cards')]")
 	private WebElement clickgiftCard;
 	
+	@FindBy(css = ".header-my-account")
+	private WebElement signinmk;
+	
+	@FindBy(css = "#signin_email_address")
+	private WebElement username;
+	
+	@FindBy(css = "#signin_password")
+	private WebElement pword;
+	
+	
+	@FindBy(xpath = "//*[@name='signin_submit']")
+	private WebElement signinbtn;
+	
+	
+	@FindBy(xpath = "//*[@title='Michael Kors']//img")
+	private WebElement mklogo;
+	
+	
 	private WebDriver webDriver;
 
 	private PageUtils pageUtils;
@@ -513,4 +531,26 @@ public class MkHomePage {
 		pageUtils.scrollToBottomOfPage();
 		jsExecutor.executeScript("arguments[0].click();", clickgiftCard);
 	}
+	
+	public void signinlink() {
+		signinmk.click();
+	}
+	
+	public void enterUserName(String uname) {
+		username.sendKeys(uname);
+	}
+	
+	public void enterPword(String pwd) {
+		pword.sendKeys(pwd);
+	}
+	
+	public void clickSigninBtn() {
+		signinbtn.click();}
+	
+	public void clickLogo() {
+		mklogo.click();}
+	
 }
+
+
+

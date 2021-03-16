@@ -104,6 +104,33 @@ public class MkCreateAccountPage_Common {
 	@FindBy(id="signin_email_address-error")
 	private WebElement IncorrectEmail;
 	
+	@FindBy(id="email_address")
+	private WebElement createacc_email;
+	
+	@FindBy(id="confirm_email_address")
+	private WebElement createacc_confirmemail;
+	
+	@FindBy(id="first_name")
+	private WebElement createacc_firstname;
+	
+	@FindBy(id="last_name")
+	private WebElement createacc_lastname;
+	
+	@FindBy(id="password")
+	private WebElement createacc_password;
+	
+	@FindBy(id="confirm_password")
+	private WebElement createacc_confirmpassword;
+	
+	
+	@FindBy(css="#termsAndConditionslabel")
+	private WebElement createacc_tandc_checkbox;
+	
+
+	@FindBy(css=".register_submit")
+	private WebElement createacc_registerbutton;
+	
+	
 	private final Logger log = LoggerFactory.getLogger(getClass());
 	private PageUtils pageUtils;
 	private JavascriptExecutor jsExecutor;
@@ -527,6 +554,47 @@ public class MkCreateAccountPage_Common {
 					actual.equalsIgnoreCase(expected));
 		}
 
+		public void createAccountEmail(String email) {
+			createacc_email.sendKeys(email);
+			
+		}
+
+		public void comfirmemail(String confemail) {
+			createacc_confirmemail.sendKeys(confemail);
+			
+		}
+
+		public void enterFName(String fname) {
+			createacc_firstname.sendKeys(fname);
+			
+		}
+
+		public void enterLName(String Lname) {
+			createacc_lastname.sendKeys(Lname);
+			
+		}
+
+		public void createAccountPwd(String pwd) {
+			createacc_password.sendKeys(pwd);
+			
+		}
+
+		public void createAccountconfrmPwd(String confmpwd) {
+			createacc_confirmpassword.sendKeys(confmpwd);
+			
+		}
+
+		public void clickTandC() {
+			createacc_tandc_checkbox.click();
+			
+		}
+
+		public void clickRegiter() {
+			createacc_registerbutton.click();
+			
+		}
+
+		
 	}
 	
 

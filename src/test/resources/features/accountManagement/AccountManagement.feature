@@ -21,7 +21,7 @@ Feature: Account Management checks
     When Login: I click Sign In button
     Then I should be successfully logged in
 
-  @guest @smoke @daily @dailySmoke @naOnly @buildSmoke @smokeSuite
+  @guest @smoke @daily @dailySmoke @naOnly @buildSmoke @smokeSuite @AIE
   Scenario: AutoSmoke_011: Verify a registered user can login and logout successfully
     Given I am a mk customer
     #And I navigate to MK HomePage
@@ -832,3 +832,33 @@ Feature: Account Management checks
     And Address Book: I edit Postal code
     When Address Book: I click on edit save address button
     Then Address Book: I verify new edited address is saved
+
+    
+  @testRun
+  Scenario: FPR_TC546_AUTO-Demo: Sign in to application
+  Given Go to Mk Home page
+    And click on Signin link
+    And Enter username 'test99@gmail.com'
+    And Enter password "test@123"
+    And click on Signin button
+    #Then user navigate to profile page
+    
+    
+   @firstScript_Low_TC007
+  Scenario:  To Verify that system restricts user to register if the user data is already exist in epicor and displays the proper error message.
+    Given Go to Mk Home page
+    And click on Signin link
+    And Enter email address 'test99@gmail.com'
+    And Enter confirm email address 'test99@gmail.com'
+    And Enter firstname 'John'
+    And Enter lastname 'Smith'
+    And Enter password 'test@321'
+    And Enter confirm password 'test@321'
+    And click on terms and condition
+    When click on register button
+    Then verify email address already exist error message
+   
+    
+    
+    
+    

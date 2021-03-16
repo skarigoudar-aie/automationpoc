@@ -209,4 +209,47 @@ public class CreateAccountPageStepDef {
 		mkCreateAccountPageCommon.createAccountWithSplCharacter(table);
 	}
 	
+	@And("Enter email address {string}")
+	public void enteremail(String email){
+		mkCreateAccountPageCommon.createAccountEmail(email);
+	}
+	
+	@And("Enter confirm email address {string}")
+	public void enterConfirmemail(String confemail){
+		mkCreateAccountPageCommon.comfirmemail(confemail);
+	}
+	
+	@And("Enter firstname {string}")
+	public void enterFirstname(String fname){
+		mkCreateAccountPageCommon.enterFName(fname);
+	}
+	
+	@And("Enter lastname {string}")
+	public void enterLastname(String Lname){
+		mkCreateAccountPageCommon.enterLName(Lname);
+	}
+	
+    @And("Enter password {string}")
+    public void pssword(String pwd){
+		mkCreateAccountPageCommon.createAccountPwd(pwd);
+	}
+    
+    
+    @And("Enter confirm password {string}")
+    public void confirmPssword(String confmpwd){
+		mkCreateAccountPageCommon.createAccountconfrmPwd(confmpwd);
+	}
+        
+    @And("click on terms and condition")
+    public void checkboxTandC(){
+		mkCreateAccountPageCommon.clickTandC();
+	}
+    
+    @When("click on register button")
+    public void clickRgter(){
+		mkCreateAccountPageCommon.clickRegiter();
+	}
+    
+    //@Then(" verify email address already exist error message")
+    
 }

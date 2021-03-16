@@ -106,6 +106,35 @@ public class HomePageStepDef {
  		Assert.assertTrue("Contact us form not submitted", mkHomePage.submitContactUsForm());
 	}
     
+    
+    @Given("Go to Mk Home page")
+  	public void GotoMkHomepage() {
+    	mkHomePage.clickLogo();
+  	}
       
+    @And("click on Signin link")
+  	public void clickSigninlink() {
+    	mkHomePage.signinlink();
+  	} 
+    
+    @And("Enter username {string}")
+  	public void enterUsrname(String uname) {
+    	mkHomePage.enterUserName(uname);
+  	} 
+    
+    @And("Enter password {string}")
+  	public void enterPwd(String pwd) {
+    	mkHomePage.enterPword(pwd);
+  	} 
+    
+    
+    @When("click on Signin button")
+  	public void clickSigninButton() {
+    	mkHomePage.clickSigninBtn();
+  	} 
+    
+    
+    
+    
 }
 
