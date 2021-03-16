@@ -832,3 +832,13 @@ Feature: Account Management checks
     And Address Book: I edit Postal code
     When Address Book: I click on edit save address button
     Then Address Book: I verify new edited address is saved
+    
+    @testrun
+    Scenario: FPR_TC546_AUTO-Demo: Sign in to application
+    Given Go to homepage
+    And Click on Sign in link
+    And Enter user name 'vputtagari@gmail.com'
+    And I enter password 'Welcome@12345'
+    And I click on Sing in button
+    And I verify succesfully sign in
+    

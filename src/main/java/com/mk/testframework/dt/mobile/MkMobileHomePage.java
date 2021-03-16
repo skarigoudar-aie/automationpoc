@@ -73,7 +73,11 @@ public class MkMobileHomePage {
 	private WebElement successPopUpContactUs;
 	
 	@FindBy(css = "#orderNumber")
-	private WebElement contactUsOrderID;	
+	private WebElement contactUsOrderID;
+	
+	@FindBy(xpath = "(//span[text()='Sign In'])[2]")
+	private WebElement signinlinkmob;
+	
 
 	private WebDriver webDriver;
 	private PageUtils pageUtils;
@@ -195,5 +199,13 @@ public class MkMobileHomePage {
 			status = true;
 		return status;
 	}
+	
+	
+	public void clickonSigninlinkmob() {
+		mkMobileHamburgerMenu.openHamburgerMenuIfNotOpen();
+		
+		signinlinkmob.click();
+	}
+	
 
 }

@@ -174,6 +174,14 @@ public class MkHomePage {
 	@FindBy(xpath = "//ul[@class='footer_links_list']/li/a[contains(@href,'/gift-cards')]")
 	private WebElement clickgiftCard;
 	
+	@FindBy(css = ".mklogo.mk-static-logo")
+	private WebElement clickonLogo;
+	
+	@FindBy(css = ".header-my-account")
+	private WebElement clickonSignInlink;
+	
+	
+	
 	private WebDriver webDriver;
 
 	private PageUtils pageUtils;
@@ -513,4 +521,14 @@ public class MkHomePage {
 		pageUtils.scrollToBottomOfPage();
 		jsExecutor.executeScript("arguments[0].click();", clickgiftCard);
 	}
+	
+	public void clickonMklogo() {
+		clickonLogo.click();
+	}
+	
+	public void clickonSigninlink() {
+		clickonSignInlink.click();
+	}
+	
+	
 }

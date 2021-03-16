@@ -270,5 +270,26 @@ public class MyAccountPageStepDef {
 		public void iClickOnAddNewDefaultBillingAddress() {
 			mkMyAccountPageCommon.clickAddNewBillingAddressOnProfilePage();
 		}
+		
+		@And("Enter user name {string}")
+		public void enterusername(String username) {
+			mkMyAccountPageCommon.enterusername(username);
+			
+		}
+		
+		@And("I enter password {string}")
+		public void enterpassword(String password) {
+			mkMyAccountPageCommon.enterpassword(password);
+			
+		}
+		
+		@And("I click on Sing in button")
+		public void clickonsignbtn() {
+			mkMyAccountPageCommon.clickonsigninbtn();	
+			
+		}
+		
+		
+		
 		    
 }

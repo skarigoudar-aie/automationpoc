@@ -112,5 +112,10 @@ public class HomePageStepDefMobile {
 	public void iSubmitContactUsForm() {
  		Assert.assertTrue("Store locator icon missing", mkMobileHomePage.submitContactUsForm());
 	}
+ 	
+ 	@And("Click on Sign in link")
+	public void clickonSignIn() {
+		mkHomePage.clickonSigninlink();
+	}
 }
 

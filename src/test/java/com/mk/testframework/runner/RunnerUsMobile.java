@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
                 "pretty", "html:build/cucumber-reports",
                 "json:build/cucumber-reports/cucumber.json",
                 "de.monochromata.cucumber.report.PrettyReports:build"},
-        tags = {"@Shiva"}
+        tags = {"@testrun"}
 )
 public class RunnerUsMobile {
 }

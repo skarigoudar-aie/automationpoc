@@ -282,6 +282,18 @@ public class MkMyAccountPage_Common {
 
 	@FindBy(css = ".profile_nav > li:nth-child(1) > a")
 	private WebElement profileLink;
+	
+	@FindBy(css = "#signin_email_address")
+	private WebElement enterusername;
+	
+	@FindBy(css = "#signin_password")
+	private WebElement enterpassword;
+	
+	@FindBy(css = ".signin_submit.mrt.translate")
+	private WebElement clickonsigninbtn;
+	
+	
+	
 
 	private final Logger log = LoggerFactory.getLogger(getClass());
 	private PageUtils pageUtils;
@@ -1236,5 +1248,19 @@ public class MkMyAccountPage_Common {
 		pageUtils.waitForPageToLoad();
 		pageUtils.waitForAjaxToComplete();
 	}
+	
+	
+	public void enterusername(String username) {
+		enterusername.sendKeys(username);
+	}
+	
+	public void enterpassword(String password) {
+		enterpassword.sendKeys(password);
+	}
 
+	public void clickonsigninbtn() {
+		clickonsigninbtn.click();
+		
+		
+	}
 }
