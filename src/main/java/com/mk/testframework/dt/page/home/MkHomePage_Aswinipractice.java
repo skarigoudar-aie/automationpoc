@@ -44,39 +44,108 @@ public class MkHomePage_Aswinipractice {
 	@FindBy(xpath = "//*[@name='sign-in']")
 	private WebElement signin;
 	
+	@FindBy(xpath = "//a[@title='Michael Kors']//img")
+	private WebElement mklogoo;
+	
+	@FindBy(xpath = "//*[@class='mk-join']")
+	private WebElement join;
+	
+	@FindBy(xpath = "//*[@name='firstName']")
+	private WebElement firstname;
+	
+	@FindBy(xpath = "//*[@name='lastName']")
+	private WebElement lastname;
+		
+	@FindBy(xpath = "//*[@id='email_address']")
+	private WebElement emailaddress;
+	
+	@FindBy(xpath = "(//*[@type='password'])[1]")
+	private WebElement passsword;
+	
+	@FindBy(xpath = "//*[@id='confirm_password']")
+	private WebElement comfirmpasssword;
+	
+	@FindBy(xpath = "//*[@id='postal_code']")
+	private WebElement zipcode;
+	
+	@FindBy(xpath = "//*[@title='JOIN KORSVIP']")
+	private WebElement joinkorsvip;
+	
+	private WebDriver webDriver;
+	
 	@Inject
-	public MkHomePage_Aswinipractice(WebDriver webDriver, PageUtils pageUtils, ModalUtils modalUtils, Context context,
-			Environment env, TestData testData) {
+	public MkHomePage_Aswinipractice( WebDriver webDriver) {
 		PageFactory.initElements(webDriver, this);
 		
 	}
 
-	public void clickLogo() {
+	
+	  public void clickLogo() { mklogo.click();
+	  
+	  }
+	  
+	  public void clicksigninlink() { signinlink.click();
+	  
+	  }
+	  
+	  
+	  public void enterUserName(String uname) { username.sendKeys(uname);
+	  
+	  // TODO Auto-generated method stub
+	  
+	  }
+	  
+	  public void enterPssword(String pwd) { password.sendKeys(pwd);
+	 
+	  }
+	  
+
+		public void clicksigninbutton() {
+			signin.click();
+			
+		}
+	  
+	public void clickLogoo() {
 		mklogo.click();		
 		
 	}
-
-	public void clicksigninlink() {
-		signinlink.click();
-		
-	}
-		
-
-	public void enterUserName(String uname) {
-		username.sendKeys(uname);
-		
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void enterPssword(String pwd) {
-		password.sendKeys(pwd);
 	
-}
-
-	public void clicksigninbutton() {
-		signin.click();
-		// TODO Auto-generated method stub
-		
+	public void clickjoinlink() {
+		join.click();
+				
 	}
-}
+
+	public void enterFirstName(String fname) {
+		firstname.sendKeys(fname);
+	}	
+
+
+	public void enterLastName(String lname) {
+		lastname.sendKeys(lname);
+	
+	}
+
+	public void enterEmailaddress(String eaddress) {
+		emailaddress.sendKeys(eaddress);		
+	}
+
+
+	public void enterPasssword(String pwdd) {
+		passsword.sendKeys(pwdd);		
+	}
+
+
+	public void enterConfirmPasssword(String pwddd) {
+		comfirmpasssword.sendKeys(pwddd);		
+	}
+
+
+	public void enterZipcode (int zcode) {
+        zipcode.sendKeys(Integer.toString(zcode));
+       
+    }
+	
+	public void clickjoinKorsVipButton() {
+		joinkorsvip.click();		
+	}
+	}
