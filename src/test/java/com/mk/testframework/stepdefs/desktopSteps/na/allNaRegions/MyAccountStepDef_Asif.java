@@ -63,12 +63,17 @@ public class MyAccountStepDef_Asif {
 		myAccount_Asif.clickOnCreateAccountSubmitButton();
 	}
 	
-	/*
-	 * @Then("I validate Successfully Created Account") public void
-	 * i_validate_Successfully_Created_Account() { Assert.
-	 * assertTrue("Account is created and Profile link to ensure user is logged in",
-	 * myAccount_Asif.displayMyAccountLink()); }
-	 */
+	
+	  @Then("I validate Successfully Created Account") 
+	  public void i_validate_Successfully_Created_Account() { 
+		Assert.assertTrue("Account not created", myAccount_Asif.displayMyAccountLink());  
+		
+		  
+	 //Assert.assertTrue("Account is created and Profile link to ensure user is logged in",
+	 // myAccount_Asif.displayMyAccountLink()); 
+	  
+	  }
+	 
 	
 	
 	

@@ -11,5 +11,5 @@ Feature: account
     And I enter Confirm Password "Test@123"
     And I enter Zipcode "07073"
     And I click on Create account Button
-    #Then I validate Successfully Created Account
+    Then I validate Successfully Created Account
     

@@ -83,7 +83,8 @@ public class MyAccount_Asif {
 	}
 	
 	
-	/*
-	 * public void displayMyAccountLink() { myAccountLink.getText(); }
-	 */
+	public boolean displayMyAccountLink() { 
+		return myAccountLink.isDisplayed();
+	}
+	 
 }
