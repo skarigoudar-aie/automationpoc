@@ -1,55 +1,54 @@
 package com.mk.testframework.stepdefs.desktopSteps.na.allNaRegions;
 
-import org.junit.Assert;
 
 import com.google.inject.Inject;
-import com.mk.testframework.core.data.TestData;
-import com.mk.testframework.dt.popup.MkSignInModal_NA;
+import com.mk.testframework.dt.page.home.TestSignIn;
 
+
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
 
 
 public class Rajesh {
 	
-	private TestData testData;
-	private MkSignInModal_NA mkSignInModalNA;
+	
+	private TestSignIn mkSignInModalNA;
 	
 	@Inject
-	public Rajesh(MkSignInModal_NA mkSignInModalNA, TestData testData) 
+	public Rajesh(TestSignIn mkSignInModalNA) 
 	{
 		this.mkSignInModalNA=mkSignInModalNA;
 	}
 	
 	@Given("Go to Home page")
 	public void goTohomepage() {
+		mkSignInModalNA.GotoHomePage();
 		
 	}
 	
-	@Given("Click on Signin link")
+	@And("Click on Signin link")
 	public void clickonSignInlink() {
-		
+		mkSignInModalNA.clickOnSigninLink();
 	}
 	
-	@Given("I Enter username")
-	public void i_enter_username() {
-		mkSignInModalNA.enterEmailAddress(testData.getUser().getEmail());
+	@And("I Enter username {string}")
+	public void i_enter_username(String usename) {
+		mkSignInModalNA.enterUserName(usename);
+		
 	}
 
-	@Given("I Enter password")
-	public void i_enter_password() {
-		mkSignInModalNA.enterPassword(testData.getUser().getPassword());
+	@And("I Enter password {string}")
+	public void i_enter_password(String password) {
+		mkSignInModalNA.enterPwd(password);
+		
 	}
 
-	@When("I Click on sign in button")
+	@And("I Click on sign in button")
 	public void i_click_Sign_In_button() {
-		mkSignInModalNA.clickSignIn();
+		mkSignInModalNA.signButton();
 	}
 	
-	@Then("I verify successfully sign in")
-	public void i_should_be_successfully_logged_in() {
-		
-	}
+	
 
 }
