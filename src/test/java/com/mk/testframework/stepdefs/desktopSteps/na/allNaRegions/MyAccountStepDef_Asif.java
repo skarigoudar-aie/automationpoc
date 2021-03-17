@@ -58,15 +58,16 @@ public class MyAccountStepDef_Asif {
 		myAccount_Asif.enterPostalCode(zipcode);
 	}
 	
-	@And("I click on Create account Button")
+	@And("I click on Create account button")
 	public void i_click_on_Create_account_Button() {
 		myAccount_Asif.clickOnCreateAccountSubmitButton();
 	}
 	
 	
 	  @Then("I validate Successfully Created Account") 
-	  public void i_validate_Successfully_Created_Account() { 
+	  public void i_validate_Successfully_Created_Account() throws InterruptedException { 
 		Assert.assertTrue("Account not created", myAccount_Asif.displayMyAccountLink());  
+		Thread.sleep(3000);
 		
 		  
 	 //Assert.assertTrue("Account is created and Profile link to ensure user is logged in",

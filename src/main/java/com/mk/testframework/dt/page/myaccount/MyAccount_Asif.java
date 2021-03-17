@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.google.inject.Inject;
+import com.mk.testframework.dt.util.PageUtils;
 
 public class MyAccount_Asif {
 	
@@ -13,36 +14,39 @@ public class MyAccount_Asif {
 	@FindBy(xpath = "//li[@class='mk-join']")
 	private WebElement join;	
 	
-	@FindBy(css = ".first_name")
+	@FindBy(xpath = "//input[@id='first_name']")
 	private WebElement firstName;
 	
-	@FindBy(css = ".last_name")
+	@FindBy(xpath = "//input[@id='last_name']")
 	private WebElement lastName;
 	
-	@FindBy(css = ".email_address")
+	@FindBy(xpath = "//input[@id='email_address']")
 	private WebElement emailAddress;
 	
-	@FindBy(css = ".password")
+	@FindBy(xpath = "//input[@id='password']")
 	private WebElement password;
 	
-	@FindBy(css = ".confirm_password")
+	@FindBy(xpath = "//input[@id='confirm_password']")
 	private WebElement confirmPassword;
 	
-	@FindBy(css = ".postal_code")
+	@FindBy(xpath = "//input[@id='postal_code']")
 	private WebElement postalCode;
 	
-	@FindBy(xpath = "//input[contains(@type,'submit')])[1]")
+	@FindBy(xpath = "//input[@title='JOIN KORSVIP']")
 	private WebElement submitButton;
 	
-	@FindBy(css = ".my-account .header-my-account a")
+	@FindBy(xpath = "//span[@class='back_msg']")
+	//(css = ".my-account .header-my-account a")
 	private WebElement myAccountLink;
 
 	private WebDriver webDriver;
+	private PageUtils pageUtils;
 	
 	@Inject
-	public MyAccount_Asif(WebDriver webDriver) {
+	public MyAccount_Asif(WebDriver webDriver, PageUtils pageUtils) {
 		PageFactory.initElements(webDriver, this);
 		this.webDriver = webDriver;
+		this.pageUtils = pageUtils;
 	}
 
 	
@@ -83,8 +87,13 @@ public class MyAccount_Asif {
 	}
 	
 	
-	public boolean displayMyAccountLink() { 
-		return myAccountLink.isDisplayed();
+	public boolean displayMyAccountLink() {
+		pageUtils.waitForPageToLoad();
+		pageUtils.sleepSeconds(6, "Profile page load");
+		//return myAccountLink.isDisplayed();
+		return pageUtils.verifyIfDisplayed(myAccountLink);
 	}
 	 
+	
+	
 }
