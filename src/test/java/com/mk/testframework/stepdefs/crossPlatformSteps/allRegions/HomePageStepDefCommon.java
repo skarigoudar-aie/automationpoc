@@ -152,10 +152,10 @@ public class HomePageStepDefCommon {
 		mkHomePage.cliclkOnGiftCardLinkFromFooter();
 	}
 	
-	@And("Go to homepage")
+	/*@And("Go to homepage")
 	public void Gotohomepage() {
 		mkHomePage.clickonMklogo();
-	}
+	}*/
 	
 	
 }

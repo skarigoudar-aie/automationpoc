@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
                 "json:build/cucumber-reports/cucumber.json",
                 "de.monochromata.cucumber.report.PrettyReports:build"
                  },
-        tags = {"@debug"}
+        tags = {"@testrun"}
 
 )
 

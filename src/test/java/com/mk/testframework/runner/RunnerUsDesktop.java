@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
                 "pretty", "html:build/cucumber-reports",
                 "json:build/cucumber-reports/cucumber.json",
                 "de.monochromata.cucumber.report.PrettyReports:build"},
-        tags = {"@testrun"}
+        tags = {"@testrun001"}
 )
 
 public class RunnerUsDesktop {

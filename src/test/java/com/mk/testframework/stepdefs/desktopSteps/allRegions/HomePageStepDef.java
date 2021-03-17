@@ -106,7 +106,7 @@ public class HomePageStepDef {
  		Assert.assertTrue("Contact us form not submitted", mkHomePage.submitContactUsForm());
 	}
     
-    @And("Click on Sign in link")
+   @And("Click on Sign in link")
 	public void clickonSignIn() {
 		mkHomePage.clickonSigninlink();
 	}
